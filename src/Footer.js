@@ -1,16 +1,10 @@
-// import logo from './logo.svg';
-// import './App.css';
-
 function Footer() {
-  return (
-    <div className="App">
+  return (    
      <footer>
-    <p>Mon footer</p>
 
+    <h2>Mon footer</h2>
 
-     </footer>
-
-    </div>
+     </footer>    
   );
 }
 

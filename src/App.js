@@ -1,19 +1,19 @@
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import Header from './Header.js'
+import Footer from './Footer.js'
+import LatestArticles from './LatestArticles.js';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      
-        <h1>Hello la Piscine !</h1>
-        <p>Comment ça baigne ?</p>
-        
-     
-      </header>
-
+    <div>
+      <Header /> 
+      <LatestArticles />
+      <Footer />
     </div>
   );
 }
 
 export default App;
+

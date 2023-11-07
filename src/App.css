@@ -30,6 +30,10 @@
 
 footer {
   background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: crimson;
 }
 
 @keyframes App-logo-spin {
